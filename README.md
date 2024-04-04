@@ -30,3 +30,9 @@
 | `git commit`                 | Opens the default editor (vim) and asks to enter commit message              |
 | `git commit -a -m "message"` | Skips the staging step and commits changes directly                          |
 | `git rm <file-name>`         | Removes the file from the staging list                                       |
+
+git log: list all commits from recent chronology
+git log -2: two recent commits
+git log --stat :abrevated changes in the file (during that commit)
+git log --pretty=<oneline/short/full/fuller> :logs the more or less information about commits
+git log --pretty = format:"%h %an" :logs the commit in desired format as %h means abbrivated hash and an means author name
