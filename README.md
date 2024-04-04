@@ -38,3 +38,5 @@ git log --pretty=<oneline/short/full/fuller> :logs the more or less information 
 git log --pretty = format:"%h %an" :logs the commit in desired format as %h means abbrivated hash and an means author name
 
 git commit -amend: if you forget the to make changes, you write this command and editor opens you override the previous commit by replaceing with new one.
+
+git reset HEAD <filename>: if the file is staged, it unstages that file and put into untracked list (hence modified list)
