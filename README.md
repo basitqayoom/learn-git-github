@@ -36,3 +36,5 @@ git log -2: two recent commits
 git log --stat :abrevated changes in the file (during that commit)
 git log --pretty=<oneline/short/full/fuller> :logs the more or less information about commits
 git log --pretty = format:"%h %an" :logs the commit in desired format as %h means abbrivated hash and an means author name
+
+git commit -amend: if you forget the to make changes, you write this command and editor opens you override the previous commit by replaceing with new one.
