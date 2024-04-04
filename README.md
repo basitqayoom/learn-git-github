@@ -26,3 +26,4 @@
 |                             | `.gitignore`                                                                 |
 
 git diff: compares actual changes what has been modified and what is yet to staged
+git diff: compares actual changes what has been modified and what is yet to staged
