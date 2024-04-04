@@ -41,3 +41,6 @@ git commit -amend: if you forget the to make changes, you write this command and
 
 git reset HEAD <filename>: if the file is staged, it unstages that file and put into untracked list (hence modified list)
 git checkout -- <filename>: Unmodify the modified file.
+
+git restore --staged <filename>: Unstages the staged file (or git reset HEAD <filename>)
+git restore <filename>: unmodify the modified files (git checkout -- <filename>)
