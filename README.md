@@ -25,4 +25,11 @@
 |                             | `<file-name>`                                                                |
 |                             | `.gitignore`                                                                 |
 
-git diff: compares actual changes what has been modified and what is yet to staged
+git diff: compares actual changes what has been modified but is staged
+git diff --staged: shows the changes that has been staged and compares with previous snapshot
+
+git commit: opens the default editor (vim) and asks to enter commit message
+
+git commit -a -m "message": skips the staging step
+
+git rm <file-name>: removes the file from staging list
