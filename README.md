@@ -44,3 +44,15 @@ git checkout -- <filename>: Unmodify the modified file.
 
 git restore --staged <filename>: Unstages the staged file (or git reset HEAD <filename>)
 git restore <filename>: unmodify the modified files (git checkout -- <filename>)
+
+git remote: lists the shortnames of each remote handle you’ve specified.
+git remote -v: shows you the URLs that Git has stored for the shortname to be used when reading and writing to that remote
+git remote add <shortname> <URL>: add remote with url represented with shortname
+
+git fetch <shortname-remote>: downloads the changes from the remote to the local, remember not merges with your branch
+git pull: downloads the changes from the remote to the local, and automatically merges the remote branch with your current branch
+
+git remote show origin
+
+git remote rename <old> <new-remote>
+git remoite remove <remote-name>
